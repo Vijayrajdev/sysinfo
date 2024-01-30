@@ -77,7 +77,7 @@ This Monitor note provides real-time system metrics for monitoring your system's
       mem
         ? (mem.total / 1024 / 1024 / 1024).toFixed(2) + " gigabytes (GB)"
         : "N/A"
-    } gigabytes (GB) of RAM.
+    } of RAM.
 - **Storage**: The VM is equipped with a ${
       disks[0] ? (disks[0].size / 1024 / 1024 / 1024).toFixed(2) + " GB" : "N/A"
     } solid-state drive (SSD).
