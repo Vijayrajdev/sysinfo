@@ -1,0 +1,36 @@
+name: System Monitor
+
+on:
+  schedule:
+    - cron: "0 */2 * * *" # Runs every 2 hours
+
+  workflow_dispatch:
+
+jobs:
+  monitor-system:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Monitor Script
+        run: node index.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "vijayrajck@outlook.com"
+          git config --local user.name "Vijayrajdev"
+          git add README.md
+          git commit -m "Update system information in README"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
