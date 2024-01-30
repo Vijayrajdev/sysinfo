@@ -66,10 +66,27 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 - **WiFi Speed**: ${wifiSpeed}
 
+
+### ✍️ Additional Information
+
+- **Note**: This information reflects the specifications of the virtual machine (VM) being used and may not accurately represent your local environment.
+- **CPU**: The CPU is equipped with  ${
+      cpu ? cpu.cpus.length : "N/A"
+    } virtual CPUs running on an Intel Xeon processor with a clock speed of 2.3 GHz.
+- **RAM**: The system is provisioned with ${
+      mem
+        ? (mem.total / 1024 / 1024 / 1024).toFixed(2) + " gigabytes (GB)"
+        : "N/A"
+    } gigabytes (GB) of RAM.
+- **Storage**: The VM is equipped with a ${
+      disks[0] ? (disks[0].size / 1024 / 1024 / 1024).toFixed(2) + " GB" : "N/A"
+    } solid-state drive (SSD).
+
 ## 📝 Instructions
 
-- This Monitor note is automatically updated to provide the latest system metrics.
-- To view historical data, check the commit history of this file.
+- This Monitor note provides real-time system specifications for the current environment.
+- It is important to note that the accuracy of the specifications depends on the environment where the script is executed.
+- For local machines, the specifications will accurately reflect the hardware specifications.
 `;
 
     // Write dynamic README content to file
