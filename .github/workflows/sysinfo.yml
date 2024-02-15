@@ -2,7 +2,7 @@ name: System Monitor
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every day once
+    [{ cron: "0 0 * * *" }] # Runs every day once
 
   workflow_dispatch:
 
