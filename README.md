@@ -7,7 +7,7 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 | Metric                    | Value             |
 | ------------------------- | ----------------- |
-| 🖥️ CPU Usage              | 23.10%       |
+| 🖥️ CPU Usage              | 17.37%       |
 | 💾 RAM Usage              | 2.69 GB       |
 | 💽 ROM Usage              | 52.71 GB       |
 | 🌐 WiFi Speed             | N/A      |
@@ -16,7 +16,7 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 ### 🖥️ CPU Usage
 
-- **Current Usage**: 23.10%
+- **Current Usage**: 17.37%
 - **Cores**: 4
 
 ### 💾 RAM Usage
