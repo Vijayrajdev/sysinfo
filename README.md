@@ -7,8 +7,8 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 | Metric                    | Value             |
 | ------------------------- | ----------------- |
-| 🖥️ CPU Usage              | 25.31%       |
-| 💾 RAM Usage              | 2.98 GB       |
+| 🖥️ CPU Usage              | 8.12%       |
+| 💾 RAM Usage              | 2.79 GB       |
 | 💽 ROM Usage              | 53.06 GB       |
 | 🌐 WiFi Speed             | N/A      |
 
@@ -16,13 +16,13 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 ### 🖥️ CPU Usage
 
-- **Current Usage**: 25.31%
+- **Current Usage**: 8.12%
 - **Cores**: 4
 
 ### 💾 RAM Usage
 
-- **Used Memory**: 2.98 GB
-- **Total Memory**: 15.62 GB
+- **Used Memory**: 2.79 GB
+- **Total Memory**: 15.61 GB
 
 ### 💽 ROM Usage
 
@@ -38,7 +38,7 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 - **Note**: This information reflects the specifications of the virtual machine (VM) being used and may not accurately represent your local environment.
 - **CPU**: The CPU is equipped with  4 virtual CPUs running on an Intel Xeon processor with a clock speed of 2.3 GHz.
-- **RAM**: The system is provisioned with 15.62 gigabytes (GB) of RAM.
+- **RAM**: The system is provisioned with 15.61 gigabytes (GB) of RAM.
 - **Storage**: The VM is equipped with a 144.26 GB solid-state drive (SSD).
 
 ## 📝 Instructions
