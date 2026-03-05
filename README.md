@@ -7,26 +7,26 @@ This Monitor note provides real-time system metrics for monitoring your system's
 
 | Metric                    | Value             |
 | ------------------------- | ----------------- |
-| 🖥️ CPU Usage              | 24.64%       |
-| 💾 RAM Usage              | 3.87 GB       |
-| 💽 ROM Usage              | 53.53 GB       |
+| 🖥️ CPU Usage              | 9.36%       |
+| 💾 RAM Usage              | 3.65 GB       |
+| 💽 ROM Usage              | 53.56 GB       |
 | 🌐 WiFi Speed             | N/A      |
 
 ## ℹ️ Detailed Information
 
 ### 🖥️ CPU Usage
 
-- **Current Usage**: 24.64%
+- **Current Usage**: 9.36%
 - **Cores**: 4
 
 ### 💾 RAM Usage
 
-- **Used Memory**: 3.87 GB
+- **Used Memory**: 3.65 GB
 - **Total Memory**: 15.62 GB
 
 ### 💽 ROM Usage
 
-- **Used Space**: 53.53 GB
+- **Used Space**: 53.56 GB
 - **Total Space**: 144.26 GB
 
 ### 🌐 WiFi Speed
